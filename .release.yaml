@@ -1,6 +1,14 @@
+project_name: "labs"
+
+release:
+  github:
+    owner: "wesleimp-deprecated"
+    repo: "labs"
+
 changelog:
-  sort: asc
+  sort: "asc"
   filters:
     exclude:
-      - '^docs:'
-      - '^test:'
+      - "^docs:"
+      - "^refac:"
+      - "^test:"
